@@ -5449,7 +5449,346 @@ function userDetails(username) {
 
 
 
+JQuery Interview Questions
+Here are few useful blogs on Javascript-
 
+Refer to 10 Best Javascript books, How to Learn Javascript quickly, Best JavaScript IDE & Source Code Editors to Use in 2020, And many more… So, here we go.
+
+Question: What is jQuery?
+Answer: jQuery is a feature-rich JavaScript library that makes HTML document traversal and manipulation, event handling, animation, and Ajax much simpler and faster. jQuery has an easy-to-use API that works across many browsers. UI related functions can be written with minimal lines of code using jQuery.
+
+Question: What is the difference between JavaScript and jQuery?
+Answer: JavaScript is an interpreted programming language whereas jQuery is a library with APIs built for JavaScript. jQuery simplifies the use of the JavaScript language.
+
+Question: What are the effects methods used in jQuery?
+Answer: jQuery enables us to add effects on a web page. jQuery effects can be categorized into fading, sliding, hiding/showing and animation effects. jQuery provides many methods for effects on a web page
+
+These are the effects methods used in jQuery:
+
+show() - It displays or shows the selected elements.
+hide() - It hides the matched or selected elements.
+toggle() - It shows or hides the matched elements. In other words, it toggles between the hide() and show() methods.
+fadeIn() - It shows the matched elements by fading it to opaque. In other words, it fades in the selected elements.
+fadeOut() - It shows the matched elements by fading it to transparent. In other words, it fades out the selected elements.
+Question: What is jQuery Ajax?
+Answer: AJAX is an acronym standing for Asynchronous JavaScript and XML and this technology helps us to load data and exchange data with the server without a browser page refresh. JQuery is a great tool that provides a rich set of AJAX methods to develop next-generation web applications.
+
+Question: What does ajax() method do?
+Answer: This method sends an asynchronous http request to the server.
+
+Question: What does the ajax method load() do?
+Answer: The load() method sends an http request to load the html or text content from the server and adds them to the DOM element(s).
+
+Question: What are the jQuery Ajax Events?
+Answer: The jQuery library also includes events that will be fired based on the state of the Ajax request, these are called Ajax events.
+
+Question: What does the jQuery Ajax event method ajaxComplete() do?
+Answer: Whenever an Ajax request completes, jQuery triggers the ajaxComplete event. Any and all handlers that have been registered with the .ajaxComplete() method are executed at this time.
+
+Question: What does the jQuery ajax event method ajaxStart() do?
+Answer: Whenever an Ajax request is about to be sent, jQuery checks whether there are any other outstanding Ajax requests. If none are in progress, jQuery triggers the ajaxStart event. Any and all handlers that have been registered with the .ajaxStart() method are executed at this time.
+
+Question: What are Events in jQuery?
+Answer: Responding to user actions on a webpage is called events. jQuery provides simple methods for attaching event handlers to selections. When an event occurs, the provided function is executed.
+
+Question: What are the categories in jquery Events?
+Answer: The common DOM events are as follows
+
+Form
+Keyboard
+Mouse
+Browser
+Document Loading
+Question: What is the use of css() method in JQuery?
+Answer: The jQuery CSS() method is used to get (return)or set style properties or values for selected elements. It facilitates you to get one or more style properties.
+
+Question: What is the difference between find and children methods?
+Answer: Both the methods are used to filter the child of the matched elements. Find method is used to find all levels down the DOM tree but children method searches only a single level down the DOM tree.
+
+Question: What are the selectors in jQuery and what are the types of Selectors?
+Answer: If you would like to work with an element on the web page, first you need to find or select it. Selectors find the HTML elements using jQuery.
+
+There are many types of selectors in the jQuery library. Some basic selectors are:
+
+Name: It is used to select all elements which match with the given element Name.
+#ID: It is used to select a single element which matches with the given ID
+.Class: It is used to select all elements which match with the given Class.
+Universal (*): It is used to select all elements available in a DOM.
+Multiple Elements E, F, G: It is used to select the combined results of all the specified selectors E, F or G.
+Attribute Selector: It is used to select elements based on its attribute value.
+Question: What is the difference between the ID selector and class selector in jQuery?
+Answer: ID selector and class selector are the same as they are in CSS. ID selector uses ID while the class selector uses a class to select elements. You use an ID selector to select just one element. If you want to select a group of elements, having the same CSS class, you can use the class selector.
+
+Question: What are the Advantages of jQuery Ajax methods?
+Answer: The advantages of using jQuery Ajax methods are
+
+Cross-browser support
+Simple methods to use
+Ability to send GET and POST requests
+Ability to Load JSON, XML, HTML or Scripts
+Question: What is the difference between onload() and document.ready() methods?
+Answer: Body.Onload() event will be called only after the DOM and associated resources like images get loaded, but jQuery's document.ready() event will be called once the DOM is loaded and it does not wait for the resources such as images to be loaded.
+
+Question: What is jQuery connect?
+Answer: A ‘ jQuery connect’ is a plug-in used to connect or bind a function with another function. Connect is used to execute a function whenever a function from another object or plug-in is executed.
+
+Question: Is jQuery required for bootstrap?
+Answer: Bootstrap uses jQuery for JavaScript plugins (like models, tooltips, etc). However, if you just use the CSS part of Bootstrap, you don't need jQuery.
+
+Question: What is jQuery Mobile?
+Answer: jQuery Mobile is an HTML5-based user interface system designed to make responsive web sites and apps that are accessible on all smartphones, tablet and desktop devices.
+
+Question: What is the difference between jquery.min.js and jquery.js?
+Answer: jquery.min.js is a compressed version of jquery.js(whitespaces and comments are removed, shorter variable names are used and so on) in order to preserve bandwidth. In terms of functionality, they are absolutely the same. It is recommended to use this compressed version in the production environment. The efficiency of web page increases when the minimized version of jQuery is used.
+
+Question: Is it possible that jQuery HTML works for both HTML and XML documents?
+Answer: No, jQuery HTML only works for HTML documents. It doesn't work for XML documents.
+
+Question: What is jQuery UI?
+Answer: jQuery UI is a set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library. jQuery UI works well for highly interactive web applications with many controls or for a simple page with a date picker control.
+
+Question: What is a Data Table plug-in for jQuery?
+Answer: DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, built upon the foundations of progressive enhancement, which adds advanced features to any HTML table.
+
+Question: What is Qunit?
+Answer: QUnit is a powerful, easy-to-use JavaScript unit testing framework. It's used by the jQuery, jQuery UI, and jQuery Mobile projects and is capable of testing any generic JavaScript code.
+
+Question: What is the advantage of hosting a jQuery using a CDN?
+Answer: CDN stands for Content Delivery Network or Content Distribution Network. It is a large distributed system of servers deployed in multiple data centers across the internet. It provides the files from servers at a higher bandwidth that leads to faster loading time.
+
+Advantages of using CDN are-
+
+The jQuery library download time will be reduced. For example - Users in Europe will hit the CDN in Europe and users in the US will hit the US CDN. As a result, this will reduce the overall page load time.
+The jQuery library will already be cached in the user’s browser if the user visited another website that references the same jQuery library. In this case, the user need not download the jQuery library.
+Question: Explain the difference between the .detach() and remove() methods in jQuery.
+Answer: The detach() and remove() methods are the same, except that .detach() retains all jQuery data associated with the removed elements and .remove() does not. detach() is therefore useful when removed elements may need to be reinserted into the DOM at a later time.
+
+Question: Can a jQuery library be used for server scripting?
+Answer: jQuery is designed with the functionality for client-side scripting. jQuery is not compatible with server-side scripting.
+
+Question: What are the features of jQuery?
+Answer: Some important features of jQuery are:
+
+Easy DOM manipulation using the Sizzle engine.
+Event handling & AJAX support.
+Built-in effects and animations.
+Lightweight library.
+Cross-browser compatibility.
+Supports CSS3, basic XPath, HTML5.
+Question: Explain the Advantages of jQuery?
+Answer: The advantages of jQuery are:
+
+Simple and easy to use.
+Has extensive documentation in the form of blogs, code snippets, tutorials, and other resources
+Simple and clean syntax.
+Open coding standards, intuitive.
+Deals with cross-browser issues without the developer having to worry about them.
+Lightweight with the core library being just 24kb.
+Open-source library.
+Exhaustive set of animations and effects.
+Extensible and fast.
+It can be optimized for search engines for better SEO.
+Question: What is jQuery.noConflict?
+Answer: Usually, JS functions and variables use $ as a name. In jQuery, $ is just an alias for jQuery, so we don’t need to use $. If we have to use a JS library along with jQuery, the control of $ is given to the JS library. To give this control, we use jQuery.noConflict(). It is also used to assign a new name to a variable.
+
+var newname = jQuery.noConflict();
+Question: Differentiate among .empty() vs .remove() vs .detach() in jQuery.
+Answer:
+
+remove(): removes the element as well as its child elements. Data from DOM can be restored; however, event handlers can’t be restored.
+
+empty(): does not remove the element, however, remove its content and the associated child elements
+
+detach(): removes the element and all the associated child elements, but retains the data and event handlers of the removed element to be reused later.
+
+Example usage:
+
+$(“#div-element”).remove();
+$(“#div-element”).empty();
+$(“#div-element”).detach();
+Question: Explain the various Ajax functions available in jQuery?
+Answer: There are many methods like -
+
+.ajaxStart() - register the handler to be called when the first Ajax request begins.
+.ajaxStop() - register the handler to be called when all requests are complete.
+.ajaxSuccess() - register the handler to be called when an Ajax request is successfully completed.
+Check all the methods on the official jQuery documentation page, which explains each method with an example.
+
+Question: What is the difference between width() vs css(‘width’) in jQuery?
+Answer: CSS(‘width’) returns the width value in pixels, whereas width() returns the integer (without the unit values). For example:
+
+div{
+width: 20cm;
+}
+If you print the values:
+
+$(this).width();
+$(this).css(‘width’);
+you will get the values like 756 and 756px respectively. Note that though we specified width in cm, it is converted to pixel (px) for output purposes.
+
+Question: What is the difference between bind() vs live() vs delegate() methods in jQuery?
+Answer:
+
+bind(): this method registers the event handler directly to the required DOM element. Eg:
+
+$(“#members a”).bind(“click”, function(f){….});
+This means any matching anchors will have this event handler attached!
+
+live(): this method attaches the event handler to the root of the document. This means one handler can be used for all events that propagated to the root. The handler is thus attached only once.
+
+delegate(): in this method, you can choose where to attach the handler. This is the most efficient and robust method for delegation.
+
+Eg:
+
+$(“#members”).delegate(“ul li a”, “click”, function(f){….});
+Question: Describe the use of the param() method in jQuery?
+Answer: The param() method outputs a serialized representation of an object or array.
+
+For example:
+
+student = new Object();
+student.name = “Mary”;
+student.marks = 67;
+$("div").text($.param(student);
+When an event occurs that calls this code, the method will give the following output:
+
+name=Mary&marks=67
+Question: Explain the difference between $(this) and this in jQuery?
+Answer: $() is the jQuery constructor function, whereas this is a reference to the DOM element. To use jQuery methods, we use $(this).
+
+Question: Explain the difference between jquery.size() and jquery.length?
+Answer: Both return the number of elements. But length is faster. As of jQuery 1.8, size() has been deprecated.
+
+Question: What are the four parameters used for the jQuery Ajax method?
+Answer: The four parameters are:
+
+URL: URL for sending the request
+Type: GET/POST request
+Success: the callback function when the request is successful
+DataType: return data type – HTML, XML, text etc.
+Question: What are all the ways to include jQuery on a page?
+Answer:
+
+You can use <script> to add the library in the HTML <head> or <body> tag: <script src='jquery-3.2.1.min.js'></script>
+Write the code within the HTML document inside the <script> tag, here we have used cdn link.
+<script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
+<script type = “text/javascript”>
+$(document)……… <jQuery code>
+</script>
+Include the .js file which has the jQuery code into the html document.
+<script src='script.js' type="text/javascript"></script>
+
+Question: What is the use of the css() method in JQuery?
+Answer: css() sets style properties for all the selected elements. It also returns the first matched element of the specified CSS property.
+
+<p>Welcome to styling</p>
+<p>I will be styled just as the previous paragraph</p>
+<button>click me to change the style</button>
+<script>
+$(document).ready(function(){
+$("button").click(function(){
+$("p").css("color", "blue");
+});
+});
+</script>
+Question: What is jQuery Datepicker in jQuery?
+Answer: It is a plugin/widget that adds datepicker functionality in HTML pages. It is highly configurable and can be customized for date format, language, restricting date selection, etc. Refer to this jQuery documentation for datepicker options.
+
+Question: Define slideToggle() effect?
+Answer: It is used to toggle between sliding up and sliding down for the selected elements.
+
+<h2>This is a paragraph.</h2>
+<button>show me toggle</button>
+<script>
+$(document).ready(function(){
+$("button").click(function(){
+$("h2").slideToggle();
+});
+});
+</script>
+Question: How can you use an array with jQuery?
+Answer: To create an array use $.makeArray(<object>)
+
+var myObj = [“John”, “Jake”, “Jack”, “King”];
+var myArr = $.makeArray(myobj);
+You can search for specific element in array using $.inArray()
+
+$.inArray(“Jack”, myArr);
+To merge two arrays, use $.merge() method
+
+var arr1 = [“John”, “Jake”, “Jack”, “King”];
+var arr2 = [“Mary”, “Katy”, “Jill”, “Queen”];
+var mergeArr = $.merge(arr1, arr2);
+Question: What are jQuery plugins?
+Answer: Plugins are simply methods that enable developers to extend jQuery’s prototype objects. Plugins are written in a standard javascript file. jQuery provides a lot of plugins that you can download from their repository link. You can include plugins in the code using <script src = "jquery.plugin.js" type = "text/javascript"></script>
+
+Question: Difference between Map and Grep function in jQuery?
+Answer: Map function translates a set of elements into another set of values in a jQuery array that may or may not have the elements. The map is called as:
+
+$(“<element>”).map(<function to execute for elements in the object>)
+Grep, on the other hand, finds an element in an array.
+
+jQuery.grep(myArr, function(){}
+Question: What is the method chaining in jQuery, and what are the advantages?
+Answer: With chaining, multiple jQuery commands on a particular element can be executed in one go. It helps in implementing various actions on an element at once rather than executing them one after the other.
+
+$("#h2").css("color","blue").animate((left: '100px'}).slideDown(1000);
+Question: Difference between jQuery.get() and jQuery.ajax()?
+Answer: In the get() method, we have to pass individual arguments, whereas ajax() methods gets all those arguments as an object.
+
+jQuery.ajax({
+url: 'mydoc.txt',
+dataType: 'text',
+type: “GET”,
+success: function(data) {
+console.log(data);
+}
+});
+get() method accepts arguments. The three main arguments passed are explained below:
+
+jQuery.get('mydoc.txt',function(data){
+console.log(data)
+},'text');
+In this, the first argument is the url, second is the callback function and the third (‘text’) is the return type.
+
+Question: Difference between prop and attr?
+Answer: Both attr() and prop() can be used to set or get an element’s value, however attr() returns the original (default) value whereas prop() returns the most recent (current) value. For example, if a text input had an initial value of ‘Male,’ and later it was changed by the user to ‘female,’ attr() will return the value as ‘Male’ whereas prop() will return the value as ‘female.’
+
+Question: What is the use of the toggle() method in JQuery?
+Answer: If there is a click event, toggle() attaches functions to toggle. So, on first click first action occurs, on second, second action and so on.
+
+<button>Change my color on each click</button>
+<script>
+$(document).ready(function(){
+$("button").toggle(
+function(){$("button").css({"color": "blue"});},
+function(){$("button").css({"color": "yellow"});},
+function(){$("button").css({"color": "red"});
+});
+});
+</script>
+Question: What is CDN?
+Answer: CDN is the short form for Cloud Delivery Network. It is a system of servers on the network (distributed) that provide specific web content like graphics, images, text, etc. to the user based on their geographic locations, the origin of the page, and the content delivery server. CDN provides high availability and performance.
+
+Question: How to add and remove CSS classes to an element using jQuery?
+Answer: You can use the addClass() and removeClass() methods to do the same.
+
+$("h1").addClass("myclass");
+$("h1").removeClass("myclass");
+Question: Can you write a jQuery code to select all links inside the paragraph?
+Answer:
+
+$('a:visible').css('text-transform', 'uppercase');
+Question: What is the purpose of the fade toggle() method in JQuery?
+Answer: It is used to toggle between the fadeIn() and fadeOut() functions. Here is an example to show the same:
+
+<div id="div1" style="color:orange;”>My text</div>
+<button>fade in/out</button><br><br>
+<script>
+$("button").click(function(){
+$("#div1").fadeToggle();
+}
+</script>
 
 
 
