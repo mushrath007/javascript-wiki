@@ -908,7 +908,8 @@ function userDetails(username) {
 
 27. ### What are closures?
     A closure is the combination of a function and the lexical environment within which that function was declared. i.e, It is an inner function that has access to the outer or enclosing function’s variables. The closure has three scope chains
-    1. Own scope where variables defined between its curly brackets
+**    A closure is a function having access to the parent scope, even after the parent function has closed.
+**    1. Own scope where variables defined between its curly brackets
     2. Outer function’s variables
     3. Global variables
     Let's take an example of closure concept,
